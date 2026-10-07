@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="MrBank Automation Test Suite" parallel="false">
+    <listeners>
+        <listener class-name="com.mrbank.listeners.TestListener"/>
+    </listeners>
+    
+    <test name="End To End Smoke Tests">
+        <classes>
+            <class name="com.mrbank.tests.LoginTest"/>
+            <class name="com.mrbank.tests.DashboardTest"/>
+            <class name="com.mrbank.tests.CompetitionsTest"/>
+        </classes>
+    </test>
+</suite>

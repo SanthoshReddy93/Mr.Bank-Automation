@@ -1,0 +1,13 @@
+{
+  "validUser": {
+    "email": "apple@gmail.com",
+    "password": "Apple@123"
+  },
+  "invalidUser": {
+    "email": "invalid_user@gmail.com",
+    "password": "WrongPassword123"
+  },
+  "appInfo": {
+    "title": "MrBanks — Win Life's Finest Rewards"
+  }
+}
